@@ -3,10 +3,14 @@
 <BODY>
 <?php
 $num="5";
+$resultado=1;
 
-function Factorial(){
-    
+for ($i=1; $i <$num+1 ; $i++) { 
+    $resultado*=$i;
 }
+
+echo $num."!= ".$resultado;
+
 ?>
 </BODY>
 </HTML>

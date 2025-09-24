@@ -14,7 +14,7 @@ for ($i=0; $i <count($numerosIPdec) ; $i++) {
 }
 //print_r($numerosIPbin);
 
-
+//Falta por terminar
 
 
 echo "IP $ip<br>";
