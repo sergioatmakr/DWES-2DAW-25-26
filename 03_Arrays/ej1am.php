@@ -11,16 +11,15 @@ for ($i=0; $i < 3; $i++) {
         $incremento++;
     }
 }
-echo"<table border='1' >";
-    for ($i=0; $i <count($pares) ; $i++) {
-        echo "<tr>"; 
-        for ($j=0; $j <count($pares) ; $j++) { 
-            echo "<td>".$pares[$i][$j]."</td>";
-        }
-        echo "</tr>";
+echo "<table border='1' cellpadding='5' cellspacing='0'>";
+foreach ($pares as $fila) {
+    echo "<tr>"; 
+    foreach ($fila as $valor) {
+        echo "<td>$valor</td>";
     }
-
-    echo"</table>";
+    echo "</tr>";
+}
+echo "</table>";
 
 ?>
 </BODY>
